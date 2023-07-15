@@ -1,0 +1,99 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+body{
+    background-color: rgb(94, 5, 31);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20vh;
+    align-items: center;
+}
+
+.wrapper{
+    height: 500px;
+width: 500px;
+background-color: white;
+border-radius: 20px;
+
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+ 
+    align-items: center;
+}
+.wrapper .gradient-box{
+    background:linear-gradient(to top,#977DFE,#6878FF);
+    height: 200px;
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 10px  ;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;    /* height: 900px; */
+}
+.row.options{
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.row.options select{
+    padding: 10px 20px;
+border: none;
+border-radius: 2px;
+cursor: pointer;
+outline: none;
+background-color:#977DFE;
+font-size: 12px;
+font-weight: 600;
+color: white;
+}
+
+.directions p{
+    color: #977DFE;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.column.palette{
+    font-size: 15px;
+    font-weight: 600;
+    color: #977DFE;
+}
+
+.column.palette input{
+    width:80px;
+    height: 40px;
+    border-radius: 2px;
+    border-color: #977DFE ;
+}
+.wrapper textarea{
+    margin-top: 25px;
+    height: 60px;
+    width: 80%;
+    display: flex;
+    font-size: 13px;
+    resize: none;
+    outline: none;
+    border: none;
+}
+
+.row.buttons button{
+    padding: 15px 25px;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+}
+.row.buttons button:nth-child(1){
+    background-color: #6878FF;
+}
+
+
+.row.buttons button:nth-child(2){
+    background-color:#977DFE;
+}
